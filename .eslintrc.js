@@ -31,7 +31,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/explicit-function-return-type': ['error'],
     'prettier/prettier': ['error', { 'endOfLine': 'auto' }],
-    
+    'import/prefer-default-export': 'error',
     'import/order': [
       'error',
       {
