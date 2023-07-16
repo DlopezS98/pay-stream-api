@@ -1,12 +1,11 @@
 import { Module } from '@nestjs/common';
 
-// import SecurityProviders from 'src/application/security/providers/providers';
+import ApplicationAuthenticationModule from 'src/application/security/authentication/auth.module';
 
 import AuthenticationController from './auth.controller';
 
 @Module({
-  imports: [],
+  imports: [ApplicationAuthenticationModule],
   controllers: [AuthenticationController],
-  // providers: [...SecurityProviders.get()],
 })
 export default class AuthenticationModule {}

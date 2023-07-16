@@ -1,6 +1,9 @@
+import { Injectable } from '@nestjs/common';
+
 import LoginDto, { LoginResponseDto } from '../dtos/login.dto';
 import IAuthenticationService from '../interfaces/authentication-service.interface';
 
+@Injectable()
 export default class AuthenticationService implements IAuthenticationService {
   authenticate(loginDto: LoginDto): Promise<LoginResponseDto> {
     console.log('authenticate', loginDto);
