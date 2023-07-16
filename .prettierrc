@@ -5,7 +5,7 @@
   "tabWidth": 2,
   "parser": "typescript",
   "bracketSameLine": true,
-  "endOfLine": "lf",
+  "endOfLine": "auto",
   "trailingComma": "es5",
   "printWidth": 120
 }
