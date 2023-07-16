@@ -1,4 +1,9 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 
 @Controller('authentication')
-export default class AuthenticationController {}
+export default class AuthenticationController {
+  @Get()
+  get(): Promise<string> {
+    return Promise.resolve('(AuthController): Hello World!');
+  }
+}
