@@ -68,7 +68,6 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node",
     "moduleNameMapper": {
-      "^Config/(.*)$": "<rootDir>/config/$1"
     }
   }
 }

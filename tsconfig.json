@@ -19,7 +19,7 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "@Config/*": ["src/config/*"],
+      // "@Config/*": ["src/config/*"],
     }
   }
 }
